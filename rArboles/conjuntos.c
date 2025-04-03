@@ -26,6 +26,7 @@ tipoConjunto buscar(tipoElemento x, particion P)
     return i; // Retorna el representante
 } 
 
+
 int unir(tipoConjunto x, tipoConjunto y, particion P)
 {
     int repX = buscar(x, P); // Busca el representante de x
